@@ -1,0 +1,45 @@
+﻿body {
+    font-family:Arial, Verdana, sans-serif;
+    margin: 0px auto;
+    padding: 0px;
+    background-image: url(../imagedefault/bgnew.jpg);
+    background-repeat: repeat-x;
+}
+.container {
+    margin:0 20px;
+}
+h3 {
+    margin:0 0 20px 0;
+    padding:5px 0;
+    color:#fff;
+}
+table {
+    border:1px solid #5E6F3F;
+    margin-top:20px;
+}
+table thead{
+    background:#688020;
+    font-weight:normal;
+}
+table tr th{
+    font-weight:normal;
+    padding:7px 0;
+}
+    table td {
+        padding:5px;
+        text-transform:capitalize;
+        font-size:14px;
+    }
+    table tr:nth-child(even) {
+        background:#EDF1D7;
+    }
+    table tr:nth-child(odd) {
+        background:#B7C881;
+    }
+select {
+    border:1px solid #688020;
+    border-radius:4px;
+    padding:5px;
+    text-transform:capitalize;
+    font-size:14px;
+}
